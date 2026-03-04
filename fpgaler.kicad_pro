@@ -247,16 +247,42 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [],
-    "viewports": [
+    "layer_presets": [
       {
-        "h": 21166832.07362427,
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          4,
+          25,
+          29,
+          31
+        ],
         "name": "w",
-        "w": 38366654.12006325,
-        "x": 48014907.83782541,
-        "y": 99633008.56099333
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "conflict_shadows",
+          "shapes"
+        ]
       }
-    ]
+    ],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
