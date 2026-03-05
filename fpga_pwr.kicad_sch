@@ -7557,6 +7557,26 @@
 		)
 		(uuid "ee3903c0-1d0f-4135-88e4-a0b81655045e")
 	)
+	(global_label "SPI_CONFIG_SCK"
+		(shape input)
+		(at 189.23 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f97fd76e-efb9-45b6-a31f-867ffa166292")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "PROGRAMN"
 		(shape input)
 		(at 194.31 67.31 0)
@@ -7578,17 +7598,6 @@
 			(justify left)
 		)
 		(uuid "11d81ada-48b5-4c7d-90b4-2684f5c4db72")
-	)
-	(hierarchical_label "SPI_CONFIG_SCK"
-		(shape input)
-		(at 189.23 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "80f9ab20-3d81-4911-9539-9e295184bb7a")
 	)
 	(hierarchical_label "INITN"
 		(shape input)

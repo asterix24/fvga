@@ -15,3 +15,6 @@
     (condition "A.intersectsCourtyard('U8')"))
 
 
+(rule "Plane to all"
+    (constraint clearance (min 0.45mm))
+    (condition "A.Type == 'Zone'"))
