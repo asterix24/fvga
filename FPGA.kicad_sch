@@ -8207,10 +8207,6 @@
 		(uuid "ca6639b8-2f92-4bb9-866b-5d0503af9d89")
 	)
 	(no_connect
-		(at 229.87 128.27)
-		(uuid "ce33c61c-7f4b-46b9-962d-e386acace51a")
-	)
-	(no_connect
 		(at 224.79 33.02)
 		(uuid "ce64c247-403b-4fa9-895e-510e69e4ac1e")
 	)
@@ -8387,6 +8383,16 @@
 			(type default)
 		)
 		(uuid "0ad9755e-4ba6-4b6a-bca1-7297ac0a5f7b")
+	)
+	(wire
+		(pts
+			(xy 229.87 128.27) (xy 260.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e577505-6a83-426c-b53d-822870b2ce3d")
 	)
 	(wire
 		(pts
@@ -12675,6 +12681,17 @@
 			(justify left)
 		)
 		(uuid "24aa2e67-2b00-43e4-a8e0-aab35a8e2c4a")
+	)
+	(hierarchical_label "Led_log"
+		(shape input)
+		(at 260.35 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "286e70bc-67c6-4969-9697-3f23bbebf47b")
 	)
 	(hierarchical_label "VGA_R0"
 		(shape input)
