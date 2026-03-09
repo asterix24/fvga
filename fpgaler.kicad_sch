@@ -17959,7 +17959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "1.1V"
 			(at 113.03 109.982 90)
 			(effects
 				(font

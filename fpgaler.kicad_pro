@@ -58,7 +58,100 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|147112501|121725000|22f5e674-128b-4862-8c34-8fabfd2070d2|622b4d89-fd67-445c-a842-d5940fd4181a",
+          ""
+        ],
+        [
+          "clearance|147150000|120750000|622b4d89-fd67-445c-a842-d5940fd4181a|93c5c57d-aac0-4580-b005-4cb55fe44619",
+          ""
+        ],
+        [
+          "clearance|147150000|120750000|622b4d89-fd67-445c-a842-d5940fd4181a|9a9332e0-d2a2-4100-a35b-7091bd570863",
+          ""
+        ],
+        [
+          "clearance|147150000|120750000|622b4d89-fd67-445c-a842-d5940fd4181a|dcb2cd8f-e7bd-4c63-9ad9-dcfb5e1d0ed2",
+          ""
+        ],
+        [
+          "clearance|147150000|121725000|5c826aea-f8f8-48e9-95a0-1b00632321e6|622b4d89-fd67-445c-a842-d5940fd4181a",
+          ""
+        ],
+        [
+          "clearance|153150000|121000000|283eb4b7-cdb9-46ee-9c3f-6d0f7e9354a1|9c8771a0-6a1e-4ad8-ae41-93d770844e29",
+          ""
+        ],
+        [
+          "clearance|153150000|122000000|98c89561-8e9d-4b66-8346-4d55abd8debd|bbd04841-2661-493d-ac15-3827d043e353",
+          ""
+        ],
+        [
+          "clearance|165750000|138500000|0203a1ab-f670-43ea-8cec-a3e0d5778dae|b0511f3e-9901-4a68-8818-db87ebbe8e37",
+          ""
+        ],
+        [
+          "clearance|165900000|136230000|5d5a3042-9324-470b-9ba5-f9c36bcf88e4|8a642dab-c662-4ee4-b545-76b7f21b4297",
+          ""
+        ],
+        [
+          "clearance|165900000|136230000|8a642dab-c662-4ee4-b545-76b7f21b4297|d2c74457-88af-4497-a03d-0b525babe674",
+          ""
+        ],
+        [
+          "clearance|165900000|136230000|8a642dab-c662-4ee4-b545-76b7f21b4297|d3d7e6a3-c19d-4f96-9f9b-cdaadfd19ebf",
+          ""
+        ],
+        [
+          "clearance|168100000|136230000|0831a036-9aff-4279-a97b-75cdf94d7151|99d92559-15e8-44c1-a640-791eb98bc16e",
+          ""
+        ],
+        [
+          "clearance|168100000|136230000|0831a036-9aff-4279-a97b-75cdf94d7151|e78135c6-111e-4cae-a2d3-a1d3e48f1692",
+          ""
+        ],
+        [
+          "clearance|168100000|136230000|0831a036-9aff-4279-a97b-75cdf94d7151|eabe1a1d-278a-4d4a-b780-66d6d7a87387",
+          ""
+        ],
+        [
+          "clearance|168100000|137680000|0831a036-9aff-4279-a97b-75cdf94d7151|5813fd57-ecce-4dc7-bde8-a4b1feba2532",
+          ""
+        ],
+        [
+          "lib_footprint_issues|132550000|94800000|749f7795-8f6b-422f-8e82-ec9bd6e937bf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|133158250|81892250|8b85e8d7-32a7-49c2-a77c-dcf6ffbddb01|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|157485033|56434966|f095e4a0-50f1-4fae-a562-d66b29af8ea8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|158585033|92750000|819e306d-61ce-44f5-8952-0bb8772ecc60|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|162909889|74337749|3090dabc-2bec-42ab-8ad1-9e1fe48475c7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "shorting_items|171320000|142000000|b81911cb-bdd2-453a-aeae-98e289c8cd0e|f4259d17-6dc9-4f21-b2d3-a2edd782ca79",
+          ""
+        ],
+        [
+          "silk_overlap|170127228|72811138|0355fcca-3dd2-4ab6-9e7a-f0334bf3ab82|17987d7e-3a4f-4f87-b4f7-a5ee988e8180",
+          ""
+        ],
+        [
+          "silk_overlap|170139802|72785989|0355fcca-3dd2-4ab6-9e7a-f0334bf3ab82|10c9d776-611d-4599-95f1-38ff530c36d3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -88,7 +181,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -237,7 +330,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": true
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -247,75 +340,16 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [
+    "layer_presets": [],
+    "viewports": [
       {
-        "activeLayer": -2,
-        "flipBoard": false,
-        "layers": [
-          1,
-          5,
-          25,
-          29,
-          31
-        ],
-        "name": "st",
-        "renderLayers": [
-          "vias",
-          "footprint_text",
-          "footprint_anchors",
-          "ratsnest",
-          "grid",
-          "footprints_front",
-          "footprints_back",
-          "footprint_values",
-          "footprint_references",
-          "tracks",
-          "drc_errors",
-          "drawing_sheet",
-          "bitmaps",
-          "pads",
-          "zones",
-          "drc_warnings",
-          "drc_exclusions",
-          "conflict_shadows",
-          "shapes"
-        ]
-      },
-      {
-        "activeLayer": -2,
-        "flipBoard": false,
-        "layers": [
-          0,
-          4,
-          25,
-          29,
-          31
-        ],
+        "h": 21166832.07362427,
         "name": "w",
-        "renderLayers": [
-          "vias",
-          "footprint_text",
-          "footprint_anchors",
-          "ratsnest",
-          "grid",
-          "footprints_front",
-          "footprints_back",
-          "footprint_values",
-          "footprint_references",
-          "tracks",
-          "drc_errors",
-          "drawing_sheet",
-          "bitmaps",
-          "pads",
-          "zones",
-          "drc_warnings",
-          "drc_exclusions",
-          "conflict_shadows",
-          "shapes"
-        ]
+        "w": 38366654.12006325,
+        "x": 48014907.83782541,
+        "y": 99633008.56099333
       }
-    ],
-    "viewports": []
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -334,7 +368,63 @@
         0,
         0,
         0,
+        1,
         0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
@@ -356,13 +446,27 @@
         2
       ],
       [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
         0,
         0,
         0,
+        1,
         0,
         0,
-        0,
-        0,
+        1,
         0,
         0,
         0,
@@ -371,112 +475,42 @@
       ],
       [
         0,
+        2,
+        1,
+        2,
         0,
         0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
         0,
         0,
+        1,
         0,
-        0,
-        0,
-        0,
+        2,
         0,
         0,
         2
       ],
       [
         0,
+        2,
+        1,
+        1,
         0,
         0,
+        1,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        2,
         0,
         0,
         2
@@ -514,20 +548,20 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "ignore",
-      "lib_symbol_mismatch": "ignore",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
-      "no_connect_connected": "ignore",
+      "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "ignore",
+      "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "ignore",
+      "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -574,29 +608,11 @@
         "clearance": 0.15,
         "name": "Power",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 5,
+        "priority": 2,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.15,
         "via_diameter": 0.4,
         "via_drill": 0.2
-      },
-      {
-        "name": "SRAM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "SRAM_CMD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "SRAM_IO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 0.75,
@@ -604,7 +620,7 @@
         "diff_pair_width": 0.25,
         "name": "diff90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -614,7 +630,7 @@
         "clearance": 0.15,
         "name": "gnd",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 3,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -1017,7 +1033,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
